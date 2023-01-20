@@ -24,13 +24,15 @@
     ================================== -->
     <script src="https://kit.fontawesome.com/07d32d7083.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body class="container">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand px-2" href="#">Bikers Zone</a>
+                <a class="navbar-brand px-2" href="#">Bikes Zone</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +44,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bikes</a>
+                            <a class="nav-link" href="#bikes">Bikes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Discount</a>
+                            <a class="nav-link" href="#discount">Discount</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blogs</a>
+                            <a class="nav-link" href="#blogs">Blogs</a>
                         </li>
                     </ul>
                     <button class="ms-5 btn btn-outline-success" type="submit">Login</button>
@@ -120,7 +122,7 @@
     </header>
     <main>
         <!-- Hot Bikes Section -->
-        <section class="text-start text-md-center p-4 mt-5 mb-3">
+        <section id="bikes" class="text-start text-md-center px-5 mt-5 mb-4">
             <h1>Hot Bikes IN This Years</h1>
             <p class="text-danger">
                 Best Bikes Collections
@@ -128,7 +130,7 @@
             <hr class="w-25 mx-auto border-danger">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-3 px-5">
                 <div class="col">
-                    <img class="w-100" src="images/feature-bike.jpg" alt="bikes">
+                    <img class="w-100 " src="images/feature-bike.jpg" alt="bikes">
                 </div>
                 <div class="col">
                     <img class="w-75" src="images/feature-bike.jpg" alt="bikes">
@@ -139,11 +141,11 @@
             </div>
         </section>
         <!-- ====================Arrival Area Desing/sections================================ -->
-        <section class="bg-info bg-opacity-25 p-4 rounded-4">
-            <h1 class="text-start text-md-center my-5">New Arrival</h1>
+        <section id="discount" class="bg-info bg-opacity-25 p-4 rounded-4">
+            <h1 class="text-start text-md-center my-3">New Arrival</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100 rounded-4">
+                    <div class="card h-100 rounded-4 card-1">
                         <img src="images/bike-1.png" class="card-img-top" alt="bike">
                         <div class="card-body">
                             <h5 class="card-title">R15 V4</h5>
@@ -157,7 +159,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 rounded-4">
+                    <div class="card h-100 rounded-4 card-1">
                         <img src="images/bike-2.png" class="card-img-top" alt="bike">
                         <div class="card-body">
                             <h5 class="card-title">Yamaha MT 15 V2</h5>
@@ -171,7 +173,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 rounded-4">
+                    <div class="card h-100 rounded-4 card-1">
                         <img src="images/bike-3.png" class="card-img-top" alt="bike">
                         <div class="card-body">
                             <h5 class="card-title">Hero Splendor Plus</h5>
@@ -187,65 +189,65 @@
             </div>
         </section>
         <!-- ========================Happy Clients ======================-->
-        <section class="p-4">
+        <section id="blogs" class="p-4">
             <h1 class="text-start text-md-center my-5">Happy <span class="text-danger">Clients Reviews</span></h1>
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 md-3 g-4">
                 <div class="col">
-                    <div class="text-center card h-100">
+                    <div class="text-center card h-100 hover-2">
                         <img src="images/user-1.png" class="w-25 mx-auto mt-3 card-img-top" alt="...">
                         <div class="card-body">
-                            
+
                             <p class="card-text lh-sm bz_details_color">This is a longer card with supporting text below
                                 as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="text-warning">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </p>
-                                <h6 class="text-primary">Vin Diesel.</h6>
-                                <p>Banker, America stongra</p>
+                            <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <h6 class="text-primary">Vin Diesel.</h6>
+                            <p>Banker, America stongra</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="text-center card h-100">
+                    <div class="text-center card h-100 hover-2">
                         <img src="images/user-2.png" class="w-25 mx-auto mt-3 card-img-top" alt="...">
                         <div class="card-body">
-                            
+
                             <p class="card-text lh-sm bz_details_color">This is a longer card with supporting text below
                                 as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p >
-                                    <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-half-stroke-solid (1).svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-regular (1).svg" alt="">
+                            <p>
+                                <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-half-stroke-solid (1).svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-regular (1).svg" alt="">
 
-                                </p>
-                                <h6 class="card-title">Emily Blunt.</h6>
-                                <p>CEO Digital Marketing</p>
+                            </p>
+                            <h6 class="card-title text-primary">Emily Blunt.</h6>
+                            <p>CEO Digital Marketing</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="text-center card h-100">
+                    <div class="text-center card h-100 hover-2">
                         <img src="images/user-3.png" class="w-25 mx-auto mt-3 card-img-top" alt="...">
                         <div class="card-body">
-                           
+
                             <p class="card-text lh-sm bz_details_color">This is a longer card with supporting text below
                                 as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p >
-                                    <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-half-stroke-solid (1).svg" alt="">
-                                    <img class="rating_icons" src="images/icons/star-regular (1).svg" alt="">
+                            <p>
+                                <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-solid.svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-half-stroke-solid (1).svg" alt="">
+                                <img class="rating_icons" src="images/icons/star-regular (1).svg" alt="">
 
-                                </p>
-                                <h6 class="card-title">Elizabeth Olsen.</h6>
-                                <p>FrontEnd Developer</p>
+                            </p>
+                            <h6 class="card-title text-primary">Elizabeth Olsen.</h6>
+                            <p>FrontEnd Developer</p>
                         </div>
                     </div>
                 </div>
@@ -265,51 +267,77 @@
                 <div class="col text-center g-4">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Accordion Item #1
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions.
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Accordion Item #2
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions.
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Accordion Item #3
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions.
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer area desing -->
-    <footer class="container">
-        <div class="row">
-            
+    <footer class="bg-info bg-opacity-25 rounded-1 text-center">
+        <div class="container">
+            <hr>
+            <div class="row ">
+                <div class="d-flex justify-content-around">
+                    <div class="col">
+                        <p class="text-center text-dark">&&copy right bikes Zone 2023! | All right recived | Company
+                            Bikes_Zone</p>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
