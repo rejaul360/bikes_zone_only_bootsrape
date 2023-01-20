@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bz_light_red{
+    background-color: rgba(255, 0, 0, 0.205);
+}
+.container-fluid a:hover{
+    background-color: #fcd0d5;
+    border-radius: 5px;
+}
+nav ul li{
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+
+nav ul li:hover{
+    background-color: #fcdce0;
+    border-radius: 5px;
+}
+.bz_details_color{
+    color: rgb(85, 81, 81);
+}
+.clients_review{
+    color:#eb2f45d7;
+}
+.rating_icons{
+    width: 20px;
+}
